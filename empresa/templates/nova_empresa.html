@@ -7,17 +7,22 @@
 
 {% block 'body' %}
 
-{% for tech in techs %}
-{% endfor %}
-
     <div class="wrapper">
         <div class="box">
             <div class="header">
                 <h3 class="titulo">Nova empresa</h3>
             </div>
+            <br />
+            {% if messages %}
+                {% for message in messages %}
+                    <section class="alert {{message.tags}}" >
+                        {{message}}
+                    </section>
+                {% endfor %}
+            {% endif %}
 
             <div class="body-box">
-                <form action="{% url 'nova_empresa' %}" method="POST" enctype="multipart/form-data">
+                <form action="{% url 'nova_empresa' %}" method="POST" enctype="multipart/form-data">{% csrf_token %}
                     <div class="row">
                         <div class="col-md">
                             <label>Nome:</label>
