@@ -56,6 +56,8 @@
                                 <option value="M">Marketing</option>
                                 <option value="N">Nutrição</option>
                                 <option value="D">Design</option>
+                                <option value="T">Tecnologia</option>
+                                <option value="CC">Contrução Cívil</option>
                             </select>
                         </div>
                     </div>
@@ -85,7 +87,12 @@
                         </div>
                     </div>
                     <br>
-                    <input type="submit" value="Nova empresa" class="btn btn-lg btn-orange">
+                    <div class="float-left">
+                        <input type="submit" value="Nova empresa" class="btn btn-lg btn-orange">
+                        {% if empresaCount %}
+                            <a href="{% url 'empresas' %}"><input type="button" value="Lista de Empresas" class="btn btn-lg btn-orange"></a>
+                        {% endif %}
+                    </div>
                 </form>
                 
             </div>
