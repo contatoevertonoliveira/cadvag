@@ -39,3 +39,6 @@ def nova_vaga(request):
 def vaga(request, id):
   vaga = get_object_or_404(Vagas, id=id)
   return render(request, 'vaga.html', {'vaga':vaga})
+
+def nova_tarefa(request, id_vaga):
+  pass
