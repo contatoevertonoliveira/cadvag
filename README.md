@@ -1,18 +1,7 @@
-<h1 align="center">
-  <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
+  <img alt="JobsCalc" title="JobsCalc" src="https://github.com/contatoevertonoliveira/cadvag/blob/master/templates/static/base/img/001.jpg?raw=true" />
 </h1>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>
-</p>
-```
-<p align='center'><img src="../master/images/jobsCalc.jpg" width="80%" alt="Screen" /></p>
-```
-
-<br>
-
-<h4 align="center">Projeto concluído! Seguindo as aulas da Rocketseat. Calculadora de Jobs, uma excelente ferramenta para auxiliar na cobrança e no acompanhamento de prestação de serviços. </h4>
+<h4 align="center">Cadastro e Controle de Vagas, uma excelente ferramenta para auxiliar no envio de currículos e entrevistas para o candidato. </h4>
 
 <br>
 
@@ -22,18 +11,16 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-- JavaScript
-- NodeJS
-- EJS
-- Express
+- Python
+- Django
 - SQLite
 
 <br>
 
 ## 💻 Projeto
 
-O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema 💰
+O myVagas é uma aplicação para o controle e cadastro de vagas, para que o candidato tenha controle de curriculos enviados e de entrevistas agendadas.
 
 ---
 
-Recriado por Everton Oliveira, acompanhando as aulas da Rocketseat
+Recriado por Everton Oliveira
