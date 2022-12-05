@@ -5,6 +5,13 @@ body{
 }
 
 .bg-nav{
-  background-color: #3B0032 !important;
+  background-color: #092327 !important;
   padding: 10px;
+}
+
+.icon-logo{
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  padding: 5px;
 }

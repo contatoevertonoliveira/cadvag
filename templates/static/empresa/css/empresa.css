@@ -1,6 +1,6 @@
 .titulo{
 
-  color: #7D2948;
+  color: #092327;
   font-weight: bold;
 
 }
@@ -11,8 +11,14 @@
 
 .btn-orange{
 
-  background-color: #ED8554;
+  background-color: #092327;
   color: white;
+}
+
+.btn-orange:hover{
+  background-color: #ED8554;
+  color: #092327;
+  text-decoration: underline;
 }
 
 label{
@@ -27,9 +33,18 @@ label{
 }
 
 .header-vagas{
-  background-color: #7D2948;
+  background-color: #092327;
   padding: 15px;
-  color: white
+}
+
+.header-vagas a{
+  color: white !important;
+  text-decoration: none;
+}
+
+.header-vagas a:hover{
+  color: #ED8554 !important;
+  text-decoration: underline;
 }
 
 .body-vagas{
